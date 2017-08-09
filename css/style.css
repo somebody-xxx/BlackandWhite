@@ -166,7 +166,7 @@ body{
     padding-left:13px;
 }
 
-.Images div{
+.Images .foto{
     background-size:contain;
     float:left;
     border:10px solid #e2e2e2;
@@ -272,7 +272,13 @@ body{
 }
 /*-----------------FOOTER END-----------------*/
 /*---------$------$-----$----MEDIA BEGIN----$-----$------$---------*/
-@media (min-width: 1200px) { ... }
+@media (max-width: 1200px) {
+.two_center{
+    overflow: hidden;
+    margin: 0px auto;
+    max-width: 482px;
+    }
+}
 
 /* Для некоторых нетбуков и планшетов (таблеток) */
 @media (min-width: 768px) and (max-width: 990px) { 
