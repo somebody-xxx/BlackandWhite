@@ -372,6 +372,14 @@ body{
 }
 
 /*------------------NAVIGATOR END------------------*/
+@media (max-width: 590px) {
+    .Lists_and_Descriptions .one_list{
+        display: block;
+        width: 290px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 509px) { 
     .one_center{
         margin: 0px auto;
@@ -389,13 +397,16 @@ body{
   }
 /*------------------HEADER END------------------*/
 /*-----------------SLIDER BEGIN-----------------*/
-  .carousel-caption {
-    height: 35px;
-    font: 11px arial,sans-serif;
-    padding-top: 6px;
-    padding-left: 13px;
+    .carousel-caption {
+        height: 35px;
+        font: 11px arial,sans-serif;
+        padding-top: 6px;
+        padding-left: 13px;
+    }
+    .Table table{
+        font-size: 11.5px;
+    }
 }
- }
 @media (max-width: 320px) { 
 .carousel-caption {
     font: 10px arial,sans-serif;
