@@ -179,10 +179,10 @@ body{
     padding-left:13px;
 }
 .Lists_and_Descriptions div{
-    float:left;
+    display: inline-block;
     padding-top:16px;
-    margin-right:20px;
     margin-bottom:15px;
+    margin-right: 10px;
     
 }
 .Lists_and_Descriptions .dl{
@@ -280,8 +280,23 @@ body{
     }
 }
 
+@media (max-width: 991px) {
+    .Lists_and_Descriptions .one_list{
+        display: block;
+        width: 566px;
+        margin: 0 auto;
+    }
+    .Lists_and_Descriptions div{
+        margin-right: 0px;
+    }
+    .Lists_and_Descriptions .dl{
+        display: block;
+        margin: 0 auto;
+        width: 270px;
+    }
+}
 /* Для некоторых нетбуков и планшетов (таблеток) */
-@media (min-width: 768px) and (max-width: 990px) { 
+@media (min-width: 768px) and (max-width: 991px) { 
  /*-----------------HEADER BEGIN-----------------*/
     .container_row{
         padding-bottom: 7px;
