@@ -357,7 +357,12 @@ body{
 }
 
 /*------------------NAVIGATOR END------------------*/
-
+@media (max-width: 509px) { 
+    .one_center{
+        margin: 0px auto;
+        max-width: 223px;
+    }
+}
 /* Для телефонов и некоторых устройств у которых совсем маленький экран */
 @media (max-width: 425px) { 
 /*-----------------HEADER BEGIN-----------------*/
